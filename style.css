@@ -79,3 +79,8 @@ footer { padding-top: 3rem; padding-bottom: 2rem; color: var(--muted); font-size
   html { scroll-behavior: auto; }
   .cursor { animation: none; }
 }
+
+::selection {
+    background: var(--accent);
+    color: var(--bg);
+}
