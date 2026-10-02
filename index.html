@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mark Richard | Personal site</title>
+  <meta name="description" content="Personal site of Your Name, a student who builds things with code.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#home">Mark Richard</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" type="button" aria-label="Switch color theme">Dark</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="hello">Hi, I'm</p>
+      <h1>Mark Richard</h1>
+      <p class="role">I make <span id="typed" aria-live="off"></span><span class="cursor" aria-hidden="true"></span></p>
+      <a class="btn" href="#projects">See my projects</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm a student from Alexandria, Egypt. I like building small tools that work, and I'm learning JavaScript by shipping projects with Hack Club.</p>
+      <p>Right now I'm working on a Slack bot and putting my first projects online.</p>
+      <ul class="skills" aria-label="Skills">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Git</li>
+        <li>Express.js</li><li>Mysql</li>
+      </ul>
+      <ul class="skills" aria-label="Skills">
+        <li>C</li><li>Python</li><li>Assembly (Not a lot)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article>
+          <h3>Slack bot</h3>
+          <p>A Node.js bot with slash commands for pings, cat facts and jokes. Runs 24/7 on Hack Club Nest.</p>
+          <a href="https://github.com/DeddCode31251/DeadIV-Slack-Bot">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>The fastest way to reach me is Slack. Email works too.</p>
+      <ul class="links">
+        <li><a href="https://github.com/DeddCode31251">GitHub</a></li>
+        <li><a href="mailto:marc.richard.kromer1@gmail.com">marc.richard.kromer1@gmail.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Mark Richard </footer>
+  <script src="script.js"></script>
+</body>
+</html>
